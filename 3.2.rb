@@ -3,7 +3,7 @@ require './parser.rb'
 # Parse file
 values = File.read("3.txt")
 
-# Split into 'dos' and 'don'ts
+# Split into 'dos' and 'don't
 lines = values.split(/(?=do|don't)/)
 
 
